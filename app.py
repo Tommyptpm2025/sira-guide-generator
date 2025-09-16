@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace this with your Sira LLM URL (e.g., from ngrok or Render)
-SIRA_LLM_URL = "https://abc123.ngrok.io"
+SIRA_LLM_URL = "https://sira-llm.onrender.com"
 
 @app.route("/generate", methods=["POST"])
 def generate_guide():
